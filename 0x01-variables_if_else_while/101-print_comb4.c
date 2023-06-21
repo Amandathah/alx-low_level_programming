@@ -11,7 +11,7 @@ int main(void)
 	for (number = 0; number < 1000; number++)
 	{
 		int ones = number % 10;
-		int tens = (number / 10) % 100;
+		int tens = (number / 10) % 10;
 		int hundreds = number / 100;
 
 		if (hundreds < tens && tens < ones)
