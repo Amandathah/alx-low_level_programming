@@ -8,9 +8,9 @@ nclude "main.h"
  */
 int main(void)
 {
-    int n;
+	int n;
 
-    n = _strlen_recursion("Corbin Coleman");
-    printf("%d\n", n);
-    return (0);
+	n = _strlen_recursion("Corbin Coleman");
+	printf("%d\n", n);
+	return (0);
 }
