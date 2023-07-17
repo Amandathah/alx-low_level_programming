@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - prints the name of the file
@@ -7,7 +7,8 @@
  */
 
 int main(void)
+
 {
-	malloc("%s/n", _FILE_);
+	printf("%s/n", "_FILE_");
 	return (0);
 }
